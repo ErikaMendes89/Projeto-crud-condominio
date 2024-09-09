@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👩🏾‍💻 CRUD de Condomínios 
+<p>Este projeto é uma aplicação web CRUD (Create, Read, Update, Delete) desenvolvida com React e Next.Js para a administração de condomínios. A aplicação permite que os usuários adicionem, editem, listem e removam condomínios, integrando com uma API para gerenciar os dados. A interface é simples e funcional, com navegação por meio de uma barra lateral e formulários para facilitar a interação.</p>
 
-## Getting Started
+## Funcionalidades Principais
+<ol>
+  <li><b>Listar Condomínios:</b> Exibe todos os condomínios registrados, com informações como nome, endereço, quantidade de unidades e data de início da administração</li>
+ <li><b>Adicionar Condomínio:</b> Formulário para adicionar novos condomínios ao sistema.</li> 
+  <li><b>Editar Condomínio:</b> Possibilidade de editar as informações de um condomínio já registrado.</li>
+  <li><b>Deletar Condomínio:</b> Opção para remover um condomínio.</li>
+  <li><b>API Integrada:</b> As operações de CRUD são feitas utilizando uma API externa.</li>
+</ol>
 
-First, run the development server:
+##  estrutura do projeto
+📌<b>Componentes</b>
+<ul>
+  <li><b>Button:</b> Componente reutilizável de botão.</li>
+  <li><b>CondominiumForm:</b> Formulário para criar ou editar condomínios.</li>
+  <li><b>CondominiumList:</b> Lista de condomínios com opções para editar e deletar.</li>
+  <li><b>Sidebar:</b> Barra lateral para navegação entre as páginas de listagem e criação de condomínios.</li>
+</ul>
+<br>
+📌<b>Páginas</b>
+<ul>
+  <li><b>IndexPage:</b>Página inicial que exibe a lista de condomínios.</li>
+  <li><b>CreateOrEditPage:</b> Página responsável pela criação ou edição de condomínios.</li>
+  <li><b>EditCondominiumPage:</b> Página para edição de um condomínio existente.</li>
+</ul>
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias Utilizadas
+<ul>
+  <li><b>React:</b> Biblioteca JavaScript para construir a interface do usuário.</li>
+  <li><b>Next.js:</b> Framework utilizado para o roteamento e renderização do lado do servidor.</li>
+  <li><b>Tailwind CSS:</b> Framework de CSS para estilização da aplicação.</li>
+  <li><b>API REST:</b>Para interação com os dados dos condomínios.</li>
+</ul>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como rodar o Projeto
+🟣 Clone o Repositório: git clone https://github.com/ErikaMendes89/crud-condominio.git<br>
+🟣 Instale as dependências: npm install <br>
+🟣 Execute o projeto: npm run dev <br>
+🟣 Acesse o Projeto no Navegador: http://localhost:3000<br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Detalhes de Funcionamento
+📌<b>Listagem de Condomínios</b><br>
+A listagem dos condomínios é feita através do componente `CondominiumList`, que faz uma requisição à API para obter os dados. Cada condomínio exibe suas informações principais e possui botões para edição e exclusão.<br>
+📌<b>Formulário de Criação e Edição</b><br>
+O componente `CondominiumForm` gerencia tanto a criação quanto a edição de condomínios. Ele utiliza o estado local para armazenar os dados do formulário e envia uma requisição `POST` ou `PUT` para a API, dependendo se é uma criação ou edição.<br>
+📌<b>Exclusão de Condomínio<b><br>
+A exclusão de condomínios é feita diretamente na lista. Quando o usuário confirma a exclusão, uma requisição `DELETE` é enviada para a API, removendo o condomínio da lista.<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Melhorias Futuras
+<ul>
+  <li>Adicionar paginação à lista de condomínios.</li>
+  <li>Implementar autenticação de usuários para maior segurança.</li>
+  <li>Melhorar a experiência do usuário com notificações e validação de formulários.</li>
+</ul>
 
-## Learn More
+## Contribuição
 
-To learn more about Next.js, take a look at the following resources:
+Contribuições são bem-vindas! Se você tiver alguma sugestão ou melhoria, sinta-se à vontade para abrir um Pull Request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Video de Apresentação
+[
+https://drive.google.com/drive/folders/12z7L8n07eRH39lujAh1xEiORzpOffCbV](https://drive.google.com/file/d/1rtjV9d0QRWbW3A1R57bg2goA2yf_Pc68/view?usp=sharing)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
