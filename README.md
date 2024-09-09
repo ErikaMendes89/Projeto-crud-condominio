@@ -42,12 +42,18 @@
 🟣 Acesse o Projeto no Navegador: http://localhost:3000<br>
 
 ## Detalhes de Funcionamento
-📌<b>Listagem de Condomínios</b><br>
-A listagem dos condomínios é feita através do componente `CondominiumList`, que faz uma requisição à API para obter os dados. Cada condomínio exibe suas informações principais e possui botões para edição e exclusão.<br>
-📌<b>Formulário de Criação e Edição</b><br>
-O componente `CondominiumForm` gerencia tanto a criação quanto a edição de condomínios. Ele utiliza o estado local para armazenar os dados do formulário e envia uma requisição `POST` ou `PUT` para a API, dependendo se é uma criação ou edição.<br>
-📌<b>Exclusão de Condomínio<b><br>
-A exclusão de condomínios é feita diretamente na lista. Quando o usuário confirma a exclusão, uma requisição `DELETE` é enviada para a API, removendo o condomínio da lista.<br>
+<br>
+📌<b>Listagem de Condomínios</b><br><br>
+
+A listagem dos condomínios é feita através do componente `CondominiumList`, que faz uma requisição à API para obter os dados. Cada condomínio exibe suas informações principais e possui botões para edição e exclusão.<br><br>
+
+📌<b>Formulário de Criação e Edição</b><br><br>
+
+O componente `CondominiumForm` gerencia tanto a criação quanto a edição de condomínios. Ele utiliza o estado local para armazenar os dados do formulário e envia uma requisição `POST` ou `PUT` para a API, dependendo se é uma criação ou edição.<br><br>
+
+📌<b>Exclusão de Condomínio<b><br><br>
+
+A exclusão de condomínios é feita diretamente na lista. Quando o usuário confirma a exclusão, uma requisição `DELETE` é enviada para a API, removendo o condomínio da lista.<br><br>
 
 ## Melhorias Futuras
 <ul>
