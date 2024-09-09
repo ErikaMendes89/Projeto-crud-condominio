@@ -19,7 +19,8 @@
   <li><b>Sidebar:</b> Barra lateral para navegação entre as páginas de listagem e criação de condomínios.</li>
 </ul>
 <br>
-📌<b>Páginas</b>
+📌<b>Páginas</b><br>
+
 <ul>
   <li><b>IndexPage:</b>Página inicial que exibe a lista de condomínios.</li>
   <li><b>CreateOrEditPage:</b> Página responsável pela criação ou edição de condomínios.</li>
