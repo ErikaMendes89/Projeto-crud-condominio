@@ -66,7 +66,7 @@ A exclusão de condomínios é feita diretamente na lista. Quando o usuário con
 
 Contribuições são bem-vindas! Se você tiver alguma sugestão ou melhoria, sinta-se à vontade para abrir um Pull Request.
 
-## Video de Apresentação
+## Video demonstração
 [
 https://drive.google.com/drive/folders/12z7L8n07eRH39lujAh1xEiORzpOffCbV](https://drive.google.com/file/d/1rtjV9d0QRWbW3A1R57bg2goA2yf_Pc68/view?usp=sharing)
 
